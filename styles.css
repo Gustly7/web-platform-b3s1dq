@@ -7,27 +7,18 @@
   max-width: 65px;
 }
 
-.divider {
-  height: 50px;
-  // background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  // background-size: 400% 400%;
-  // animation: gradient 2s ease infinite;
-}
-
 .pony {
-  height: 50px;
+  height: 75px;
   background-size: contain;
-  background-image: url('https://github.com/Gustly7/web-platform-b3s1dq/blob/main/pony.png');
+  background-image: url('./pony2.png'), linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: gradient 800s linear infinite;
 }
 
 @keyframes gradient {
   0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
+    background-position: 0% 0%;
   }
   100% {
-    background-position: 0% 50%;
+    background-position: 10000% 0%;
   }
 }
