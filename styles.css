@@ -9,15 +9,15 @@
 
 .divider {
   height: 50px;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 2s ease infinite;
+  // background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  // background-size: 400% 400%;
+  // animation: gradient 2s ease infinite;
 }
 
 .pony {
   height: 50px;
-  background-size: 100%;
-  background-image: url('https://w7.pngwing.com/pngs/54/591/png-transparent-pinkie-pie-art-my-little-pony-friendship-is-magic-fandom-sugarcube-corner-shop-smile-purple-television-face.png'), linear-gradient(#eb01a5, #d13531);;
+  background-size: contain;
+  background-image: url('https://github.com/Gustly7/web-platform-b3s1dq/blob/main/pony.png');
 }
 
 @keyframes gradient {
